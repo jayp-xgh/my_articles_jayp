@@ -8,10 +8,11 @@
             </tr>
         </thead>
         <tbody>
-            {{ range .Data.Pages }}
+            {{  with .Site.GetPage "/posts/" }}
+            {{ range .Pages.ByLastmod.Reverse }}
             <tr>
-                <td class="td-data"><a href="#" class="data-table">{{ .Date.Format "2006-01-02" }}</a></td>
-                <td><a href="#" class="title-article">{{ .Title }}</a></td>
+                <td class="td-data"><a href="" class="data-table">{{ .Date.Format "2006-01-02" }}</a></td>
+                <td><a href="{{ .Permalink }}" class="title-article">{{ .Title }}</a></td>
                 <td>
                     <a href="{{ .Permalink }}">
                         <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,6 +21,7 @@
                     </a>
                 </td>
             </tr>
+            {{ end }}
             {{ end }}
         </tbody>
     </table>
