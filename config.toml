@@ -1,0 +1,6 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Jayp'
+
+[context.production.environment]
+TZ = "America/Sao_Paulo"
