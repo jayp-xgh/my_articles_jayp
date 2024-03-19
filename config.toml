@@ -4,3 +4,19 @@ title = 'Jayp'
 
 [context.production.environment]
 TZ = "America/Sao_Paulo"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'catppuccin-macchiato'
+    tabWidth = 4
