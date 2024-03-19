@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#container__article {
+    width: 630px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(104, 104, 104);
+}
+
+strong {
+    font-weight: 700;
+}
+
+#span__name_date {
+    font-size: 14px;
+    color: rgb(165, 164, 164);
+}
+#title__article {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.highlight, pre {
+    border-radius: 15px;
+}
+
+img {
+    border-radius: 10px;
+    width: 630px;
+}
+
+ol {
+    padding-left: 30px;
+}
+
+p > img {
+    margin: 30px 0 ;
+}
+
+a {
+    color: rgb(103, 113, 251);
+    text-decoration: underline !important;
+}
+
+a:hover {
+    color: rgb(75, 86, 248) !important;
+    font-weight: 800;
+}
