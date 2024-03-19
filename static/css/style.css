@@ -16,3 +16,6 @@ body {
     align-items: center;
     gap: 2rem;
 }
+footer {
+    height: 100px;
+}

@@ -39,3 +39,12 @@ nav {
     color: rgb(103, 113, 251);
 }
 
+.link__navbar {
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;
+}
+
+.link__navbar:hover {
+    color: rgb(75, 86, 248) !important;
+    font-weight: 800;
+}
