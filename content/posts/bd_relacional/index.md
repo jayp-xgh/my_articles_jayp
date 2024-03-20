@@ -56,11 +56,11 @@ A álgebra relacional é o coração dos bancos de dados relacionais, e seu estu
 
 Para quem deseja aprofundar seus conhecimentos e compreender as fundações teóricas dos bancos de dados, sugiro a leitura dos seguintes artigos clássicos:
 
-"A Relational Model of Data for Large Shared Data Banks" por Edgar F. Codd
+[*"A Relational Model of Data for Large Shared Data Banks" por Edgar F. Codd"*](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
 
 Neste artigo, Edgar F. Codd introduz o modelo relacional, que se tornou a base para a maioria dos sistemas de gerenciamento de bancos de dados modernos. O artigo aborda os conceitos fundamentais da álgebra relacional e estabelece as bases teóricas para o armazenamento e manipulação de dados em bancos de dados relacionais.
 
-"Organization and Maintenance of Large Ordered Indexes" por Rudolf Bayer
+[*"Organization and Maintenance of Large Ordered Indexes" por Rudolf Bayer"*](https://infolab.usc.edu/csci585/Spring2010/den_ar/indexing.pdf)
 
 Este artigo apresentou ao mundo a estrutura e funcionamento das árvores B, que são amplamente utilizadas em sistemas de gerenciamento de bancos de dados para indexação e recuperação eficiente de dados. Rudolf Bayer introduz o conceito e as operações associadas às árvores B, proporcionando insights valiosos sobre sua importância e aplicação prática.
 

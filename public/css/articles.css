@@ -16,7 +16,7 @@
 p {
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-bottom: 1rem;
+    margin: 40px 0;
     color: #1F2937;
 }
 
@@ -91,4 +91,8 @@ blockquote > p::before {
 
 h4 {
     margin: 10px 0;
+}
+
+em {
+    font-style: italic;
 }
