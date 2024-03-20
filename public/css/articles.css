@@ -87,3 +87,7 @@ blockquote > p::before {
     margin-right: 10px;
     font-size: 20px;
 }
+
+h4 {
+    margin: 10px 0;
+}
