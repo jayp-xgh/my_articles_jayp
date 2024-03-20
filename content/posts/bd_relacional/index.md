@@ -1,7 +1,7 @@
 ---
 title: "Diferenciando Banco Relacional e não Relacional"
 date: 2023-11-16
-draft: true
+draft: false
 ---
 
 ## Banco de Dados Relacional vs Não Relacional: Compreendendo as Diferenças
