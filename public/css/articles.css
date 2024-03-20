@@ -80,6 +80,7 @@ blockquote {
     padding: 10px;
 	background-color: rgba(229, 231, 235, 0.367);
     border-radius: 10px;
+    margin: 20px 0;
 }
 
 blockquote > p::before {
