@@ -17,7 +17,7 @@ p {
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 1rem;
-    color: rgb(104, 104, 104);
+    color: #1F2937;
 }
 
 strong {
@@ -45,7 +45,13 @@ img {
 }
 
 ol {
+    margin: 20px 0;
     padding-left: 30px;
+}
+
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
 }
 
 p > img {
@@ -54,10 +60,30 @@ p > img {
 
 a {
     color: rgb(103, 113, 251);
-    text-decoration: underline !important;
+    text-decoration: none !important;
 }
 
 a:hover {
     color: rgb(75, 86, 248) !important;
     font-weight: 800;
+    text-decoration: underline !important;
+}
+
+blockquote > p {
+    width: 100%;
+    margin: 0;
+    color: #4e5155;
+    text-align: left ;
+}
+
+blockquote {
+    padding: 10px;
+	background-color: rgba(229, 231, 235, 0.367);
+    border-radius: 10px;
+}
+
+blockquote > p::before {
+    content: '📚';
+    margin-right: 10px;
+    font-size: 20px;
 }

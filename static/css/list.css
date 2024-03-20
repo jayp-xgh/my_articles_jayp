@@ -48,3 +48,7 @@ th, td {
 .link__table {
     text-decoration: none !important;
 }
+
+.title__article:hover {
+    color: #517BCD;
+}
