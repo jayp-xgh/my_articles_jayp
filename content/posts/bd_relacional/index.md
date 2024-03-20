@@ -1,6 +1,6 @@
 ---
 title: "Diferenciando Banco Relacional e não Relacional"
-date: 2024-03-19T22:32:47-03:00
+date: 2023-11-16
 draft: true
 ---
 
