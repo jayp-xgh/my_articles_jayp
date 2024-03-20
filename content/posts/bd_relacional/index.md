@@ -4,7 +4,7 @@ date: 2023-11-16
 draft: false
 ---
 
-## Banco de Dados Relacional vs Não Relacional: Compreendendo as Diferenças
+## Banco de Dados Relacional vs Não Relacional: Matematicamente
 
 {{< default "span__name_date" >}}
   @jayp | Novembro 16, 2023
@@ -12,7 +12,7 @@ draft: false
 
 ![Postgres vs Mongo](/img/mongodb-vs-postgresql.png)
 
-Lembrando que esse artigo não tem o propósito de ensinar [**álgebra relacional**](https://pt.wikipedia.org/wiki/%C3%81lgebra_relacional). Enfim, vamos lá:
+> Lembrando que esse artigo não tem o propósito de ensinar [**álgebra relacional**](https://pt.wikipedia.org/wiki/%C3%81lgebra_relacional). Caso queira estudar mais afundo, recomendo o artido do mestre **Macoratti**, nesse artigo de [**SQL - Álgebra Relacional**](https://www.macoratti.net/13/06/sql_arcb.htm) é abordado de forma mais técnica. Enfim, vamos lá:
 
 Gostaria de compartilhar um insight que tive durante minha recente sessão de estudo na madrugada. Enquanto estudava matemática e, mais especificamente, as  [**relações matemáticas**](https://pt.wikipedia.org/wiki/Rela%C3%A7%C3%A3o_(matem%C3%A1tica)), ocorreu-me um pensamento interessante.
 
@@ -30,19 +30,29 @@ No contexto de bancos de dados não relacionais, os dados são frequentemente ar
 
 Portanto, a distinção entre bancos de dados relacionais e não relacionais não está relacionada à capacidade de estabelecer relações entre dados, mas sim à maneira como os dados são estruturados e organizados, bem como à flexibilidade que cada modelo oferece para lidar com diferentes tipos de informações e necessidades de escalabilidade.
 
+## Opinião de terceiros:
+
 [**Debatendo esse assunto em alguns fóruns, ouvi essa opinião que acho válido deixar registrado:**](https://www.tabnews.com.br/jayp/explicando-matematicamente-a-direfenca-do-bd-relacional-e-bd-nao-relacional)
 
-A álgebra relacional é um conjunto de operações que atuam sobre relações e produzem outras relações como resultado. Estas operações são fundamentadas em conceitos matemáticos sólidos e fornecem a base teórica para os bancos de dados relacionais.
+> " A álgebra relacional é um conjunto de operações que atuam sobre relações e produzem outras relações como resultado. Estas operações são fundamentadas em conceitos matemáticos sólidos e fornecem a base teórica para os bancos de dados relacionais. " - Clacerda
 
-Estas operações têm definições matemáticas precisas, o que significa que, quando você executa uma operação em um banco de dados relacional, você está, de fato, aplicando operações matemáticas em seus dados.
+Estas operações têm definições matemáticas precisas, o que significa que, quando você executa uma operação em um banco de dados relacional, você está, de fato, aplicando [**operações matemáticas**](https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_(matem%C3%A1tica)) em seus dados.
+
+![Table Relacional](/img/table_relacinal.png)
 
 A verdadeira distinção entre Bancos de Dados Relacionais e Não Relacionais:
 
-Bancos de Dados Relacionais: São fundamentados na álgebra relacional. Cada operação que você realiza tem uma definição matemática precisa. Por exemplo, quando você faz uma junção entre duas tabelas, está aplicando a operação de junção da álgebra relacional.
+**Bancos de Dados Relacionais:** São fundamentados na álgebra relacional. Cada operação que você realiza tem uma definição matemática precisa. Por exemplo, quando você faz uma junção entre duas tabelas, está aplicando a operação de junção da álgebra relacional.
+
+![Gráfico de relacionamento](/img/join.png)
 
 Bancos de Dados Não Relacionais: Não são baseados na álgebra relacional. Eles podem estabelecer algumas relações entre os dados, mas essas relações não são definidas estritamente pela álgebra relacional. Portanto, as operações realizadas sobre essas relações não têm as garantias matemáticas que as operações em bancos de dados relacionais têm.
 
-A álgebra relacional é o coração dos bancos de dados relacionais, e seu estudo é fundamental para compreender a teoria e prática por trás desses sistemas. Encorajo o autor a continuar sua jornada de aprendizado e a explorar ainda mais as profundezas da álgebra relacional e dos bancos de dados. Seu interesse e dedicação são louváveis e farão a diferença em sua trajetória profissional.
+![Gráficos de relacionamentos Sql e não Sql](/img/sql_no_sql.png)
+
+A álgebra relacional é o coração dos bancos de dados relacionais, e seu estudo é fundamental para compreender a teoria e prática por trás desses sistemas. Encorajo o **autor/leitor** a continuar sua jornada de aprendizado e a explorar ainda mais as profundezas da álgebra relacional e dos bancos de dados. Seu interesse e dedicação são louváveis e farão a diferença em sua trajetória profissional.
+
+![Tabela Relacional](/img/graphic_relacional.png)
 
 Para quem deseja aprofundar seus conhecimentos e compreender as fundações teóricas dos bancos de dados, sugiro a leitura dos seguintes artigos clássicos:
 
