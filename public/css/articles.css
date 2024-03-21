@@ -10,11 +10,11 @@
 }
 
 #container__article {
-    width: 630px;
+    width: 830px;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
     margin: 40px 0;
     color: #1F2937;
@@ -41,7 +41,7 @@ strong {
 
 img {
     border-radius: 10px;
-    width: 630px;
+    width: 830px;
 }
 
 ol {
