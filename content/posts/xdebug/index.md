@@ -14,6 +14,13 @@ draft: false
 
 > Nunca vi um tutorial simples ensinando a configurar o Xdebug com Docker e Direnv. Neste mini tutorial, vou tentar dar o meu máximo para esclarecer e ensiná-los. Lembrando que este não é um tutorial para explicar o que é o Xdebug ou como utilizá-lo, mas sim para instalá-lo. Para isso, você pode ler a [documentação](https://xdebug.org/docs/) ou assistir a este vídeo do [**YouTube**](https://www.youtube.com/watch?v=pi8-_hEIWJc).
 
+
+Nesse tutorial utilizo:
+- [x] [**PHP 7.3**](https://www.php.net/releases/7_3_0.php)
+- [x] [**Docker**](https://docker-docs.uclv.cu/)
+- [x] [**Zsh**](https://ohmyz.sh/)
+- [x] [**Direnv**](https://direnv.net/docs/installation.html)
+
 ### Primeiro, vamos configurar o [**direnv**](https://direnv.net/).
 
 Instalação:
