@@ -1,7 +1,7 @@
 ---
 title: "Xdebug, Docker, VsCode & Direnv"
 date: 2024-03-21T20:00:19-03:00
-draft: true
+draft: false
 ---
 
 ## Bora configurar o Xdebug
