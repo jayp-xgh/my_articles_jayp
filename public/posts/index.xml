@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Jayp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2024 20:00:19 -0300</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xdebug</title>
+      <link>//localhost:1313/posts/xdebug/</link>
+      <pubDate>Thu, 21 Mar 2024 20:00:19 -0300</pubDate>
+      <guid>//localhost:1313/posts/xdebug/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Diferenciando Banco Relacional e não Relacional</title>
       <link>//localhost:1313/posts/bd_relacional/</link>

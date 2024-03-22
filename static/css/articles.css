@@ -96,3 +96,18 @@ h4 {
 em {
     font-style: italic;
 }
+
+#warning {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #694f01;
+    margin: 20px 0 !important;
+    background-color: #f7d781;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#warning::before {
+    content: '🚨';
+    font-size: 20px;
+}
