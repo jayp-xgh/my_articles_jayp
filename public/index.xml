@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jayp</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Jayp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Mar 2024 20:00:19 -0300</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xdebug, Docker, VsCode &amp; Direnv</title>
+      <link>//localhost:1313/posts/xdebug/</link>
+      <pubDate>Thu, 21 Mar 2024 20:00:19 -0300</pubDate>
+      <guid>//localhost:1313/posts/xdebug/</guid>
+      <description>Bora configurar o Xdebug @jayp | Março 21, 2024 Nunca vi um tutorial simples ensinando a configurar o Xdebug com Docker e Direnv. Neste mini tutorial, vou tentar dar o meu máximo para esclarecer e ensiná-los. Lembrando que este não é um tutorial para explicar o que é o Xdebug ou como utilizá-lo, mas sim para instalá-lo. Para isso, você pode ler a documentação ou assistir a este vídeo do YouTube.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Wed, 20 Mar 2024 21:27:44 -0300</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>asddasdadadhu</description>
+    </item>
+    <item>
+      <title>Diferenciando Banco Relacional e não Relacional</title>
+      <link>//localhost:1313/posts/bd_relacional/</link>
+      <pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/bd_relacional/</guid>
+      <description>Banco de Dados Relacional vs Não Relacional: Matematicamente @jayp | Novembro 16, 2023 Lembrando que esse artigo não tem o propósito de ensinar álgebra relacional. Caso queira estudar mais afundo, recomendo o artido do mestre Macoratti, nesse artigo de SQL - Álgebra Relacional é abordado de forma mais técnica. Enfim, vamos lá:&#xA;Gostaria de compartilhar um insight que tive durante minha recente sessão de estudo na madrugada. Enquanto estudava matemática e, mais especificamente, as relações matemáticas, ocorreu-me um pensamento interessante.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+table {
+    width: 630px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+#tr__list_hover:hover {
+    background-color: #c1c1c129;
+    cursor: pointer;
+}
+
+.title__table {
+    font-size: 16px;
+    color: rgb(107, 114, 128);
+    padding: 0;
+}
+
+.td__data{
+    width: 120px;
+    padding: 0;
+}
+
+.td__data > a {
+    color: rgb(107, 114, 128);
+}
+.data__table {
+    width: 10px;
+}
+
+.title__article {
+    color: #000;
+    font-size: 16px;
+}
+
+.link__table {
+    text-decoration: none !important;
+}
+
+.title__article:hover {
+    color: #517BCD;
+}
