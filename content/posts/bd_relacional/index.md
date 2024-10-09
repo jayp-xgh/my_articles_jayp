@@ -10,7 +10,7 @@ draft: false
   @jayp | Novembro 16, 2023
 {{< /default >}}
 
-![Postgres vs Mongo](/img/mongodb-vs-postgresql.png)
+![Postgres vs Mongo](/img/mongodb-vs-postgresql.webp)
 
 > Lembrando que esse artigo não tem o propósito de ensinar [**álgebra relacional**](https://pt.wikipedia.org/wiki/%C3%81lgebra_relacional). Caso queira estudar mais afundo, recomendo o artido do mestre **Macoratti**, nesse artigo de [**SQL - Álgebra Relacional**](https://www.macoratti.net/13/06/sql_arcb.htm) é abordado de forma mais técnica. Enfim, vamos lá:
 

@@ -10,7 +10,7 @@ draft: false
   @jayp | Março 21, 2024
 {{< /default >}}
 
-![Postgres vs Mongo](/img/xdebug.webp)
+![Xdebug](/img/xdebug.webp)
 
 > Nunca vi um tutorial simples ensinando a configurar o Xdebug com Docker e Direnv. Neste mini tutorial, vou tentar dar o meu máximo para esclarecer e ensiná-los. Lembrando que este não é um tutorial para explicar o que é o Xdebug ou como utilizá-lo, mas sim para instalá-lo. Para isso, você pode ler a [documentação](https://xdebug.org/docs/) ou assistir a este vídeo do [**YouTube**](https://www.youtube.com/watch?v=pi8-_hEIWJc).
 
